@@ -8,13 +8,3 @@ int number = int.Parse(Console.ReadLine());
 int first = number/10;
 int tree = first%10;
 Console.WriteLine("Вторая цифра Вашего числа:"  + tree);
-
-//if (number / 1000 != 0 || number / 100 == 0)
-// {
-//     Console.WriteLine("Введено число не уддовлетворяющее условиям задачи.");
-// }
-// //else
-// {
-//     int SecDig = (number % 100) / 10;
-//     Console.WriteLine("Вторая цифра вашего трёхзначного числа: " + SecDig);
-//}
